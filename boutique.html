@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boutique Luxura Monte-Carlo - Découvrez nos collections exclusives d'accessoires et produits de luxe.">
+    <title>Boutique | Luxura Monte-Carlo</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">LUXURA <span class="monte-carlo">Monte-Carlo</span></a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="boutique.html" class="nav-link active">Boutique</a></li>
+                <li><a href="about.html" class="nav-link">À Propos</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="boutique.html" class="nav-link nav-cta">Explorer</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Boutique</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Produits exclusifs pour une vie raffinée</p>
+        </div>
+    </section>
+
+    <!-- Boutique Content -->
+    <section class="boutique-section">
+        <div class="container">
+            
+            <!-- Filtres -->
+            <div class="shop-filters" data-aos="fade-up">
+                <div class="filter-group">
+                    <button class="filter-btn active" data-filter="all">Tous les produits</button>
+                    <button class="filter-btn" data-filter="watches">Horlogerie</button>
+                    <button class="filter-btn" data-filter="accessories">Accessoires</button>
+                    <button class="filter-btn" data-filter="jewelry">Joaillerie</button>
+                    <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+                </div>
+                
+                <div class="sort-group">
+                    <select class="sort-select">
+                        <option>Trier par</option>
+                        <option>Nouveautés</option>
+                        <option>Prix croissant</option>
+                        <option>Prix décroissant</option>
+                        <option>Popularité</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Grille Produits -->
+            <div class="shop-grid">
+                
+                <!-- Produit 1 -->
+                <div class="shop-product" data-category="watches" data-aos="fade-up">
+                    <div class="shop-product-image">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999" alt="Montre Excellence">
+                        <span class="product-badge new">Nouveau</span>
+                        <div class="shop-product-overlay">
+                            <button class="btn-icon" title="Zoom"><i class="fas fa-search-plus"></i></button>
+                            <button class="btn-icon" title="Favoris"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="shop-product-info">
+                        <div class="product-category">Horlogerie</div>
+                        <h3>Montre Excellence Automatique</h3>
+                        <p class="product-description">Mouvement suisse, boîtier acier inoxydable 42mm</p>
+                        <div class="product-bottom">
+                            <span class="product-price">12 500 €</span>
+                            <button class="btn btn-primary btn-small">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 2 -->
+                <div class="shop-product" data-category="accessories" data-aos="fade-up" data-aos-delay="100">
+                    <div class="shop-product-image">
+                        <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=2069" alt="Sac Prestige">
+                        <div class="shop-product-overlay">
+                            <button class="btn-icon" title="Zoom"><i class="fas fa-search-plus"></i></button>
+                            <button class="btn-icon" title="Favoris"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="shop-product-info">
+                        <div class="product-category">Accessoires</div>
+                        <h3>Sac Prestige Cuir Italien</h3>
+                        <p class="product-description">Cuir pleine fleur, finitions main, collection signature</p>
+                        <div class="product-bottom">
+                            <span class="product-price">4 800 €</span>
+                            <button class="btn btn-primary btn-small">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 3 -->
+                <div class="shop-product" data-category="jewelry" data-aos="fade-up" data-aos-delay="200">
+                    <div class="shop-product-image">
+                        <img src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?q=80&w=1970" alt="Bracelet Diamants">
+                        <span class="product-badge exclusive">Exclusif</span>
+                        <div class="shop-product-overlay">
+                            <button class="btn-icon" title="Zoom"><i class="fas fa-search-plus"></i></button>
+                            <button class="btn-icon" title="Favoris"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="shop-product-info">
+                        <div class="product-category">Joaillerie</div>
+                        <h3>Bracelet Or Blanc & Diamants</h3>
+                        <p class="product-description">Or blanc 18 carats, diamants 2.5ct, création unique</p>
+                        <div class="product-bottom">
+                            <span class="product-price">28 900 €</span>
+                            <button class="btn btn-primary btn-small">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 4 -->
+                <div class="shop-product" data-category="lifestyle" data-aos="fade-up">
+                    <div class="shop-product-image">
+                        <img src="https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?q=80&w=2080" alt="Set Voyage">
+                        <div class="shop-product-overlay">
+                            <button class="btn-icon" title="Zoom"><i class="fas fa-search-plus"></i></button>
+                            <button class="btn-icon" title="Favoris"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="shop-product-info">
+                        <div class="product-category">Lifestyle</div>
+                        <h3>Set Voyage Deluxe</h3>
+                        <p class="product-description">Ensemble cuir, trousse, porte-documents, étui passeport</p>
+                        <div class="product-bottom">
+                            <span class="product-price">3 200 €</span>
+                            <button class="btn btn-primary btn-small">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 5 -->
+                <div class="shop-product" data-category="accessories" data-aos="fade-up" data-aos-delay="100">
+                    <div class="shop-product-image">
+                        <img src="https://images.unsplash.com/photo-1624222247344-426bb6f70e6c?q=80&w=1974" alt="Lunettes">
+                        <div class="shop-product-overlay">
+                            <button class="btn-icon" title="Zoom"><i class="fas fa-search-plus"></i></button>
+                            <button class="btn-icon" title="Favoris"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="shop-product-info">
+                        <div class="product-category">Accessoires</div>
+                        <h3>Lunettes Soleil Monte-Carlo</h3>
+                        <p class="product-description">Monture titane, verres polarisés, étui cuir inclus</p>
+                        <div class="product-bottom">
+                            <span class="product-price">890 €</span>
+                            <button class="btn btn-primary btn-small">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 6 -->
+                <div class="shop-product" data-category="watches" data-aos="fade-up" data-aos-delay="200">
+                    <div class="shop-product-image">
+                        <img src="https://images.unsplash.com/photo-1622434641406-a158123450f9?q=80&w=1974" alt="Chronographe">
+                        <span class="product-badge new">Nouveau</span>
+                        <div class="shop-product-overlay">
+                            <button class="btn-icon" title="Zoom"><i class="fas fa-search-plus"></i></button>
+                            <button class="btn-icon" title="Favoris"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="shop-product-info">
+                        <div class="product-category">Horlogerie</div>
+                        <h3>Chronographe Royal Edition</h3>
+                        <p class="product-description">Calibre automatique, bracelet alligator, édition limitée</p>
+                        <div class="product-bottom">
+                            <span class="product-price">18 700 €</span>
+                            <button class="btn btn-primary btn-small">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 7 -->
+                <div class="shop-product" data-category="jewelry" data-aos="fade-up">
+                    <div class="shop-product-image">
+                        <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=2070" alt="Bague">
+                        <div class="shop-product-overlay">
+                            <button class="btn-icon" title="Zoom"><i class="fas fa-search-plus"></i></button>
+                            <button class="btn-icon" title="Favoris"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="shop-product-info">
+                        <div class="product-category">Joaillerie</div>
+                        <h3>Bague Éternité Saphir</h3>
+                        <p class="product-description">Or rose 18k, saphir central 3ct, pavage diamants</p>
+                        <div class="product-bottom">
+                            <span class="product-price">15 400 €</span>
+                            <button class="btn btn-primary btn-small">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produit 8 -->
+                <div class="shop-product" data-category="lifestyle" data-aos="fade-up" data-aos-delay="100">
+                    <div class="shop-product-image">
+                        <img src="https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?q=80&w=1974" alt="Stylo">
+                        <div class="shop-product-overlay">
+                            <button class="btn-icon" title="Zoom"><i class="fas fa-search-plus"></i></button>
+                            <button class="btn-icon" title="Favoris"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="shop-product-info">
+                        <div class="product-category">Lifestyle</div>
+                        <h3>Stylo Plume Collection Maître</h3>
+                        <p class="product-description">Résine précieuse, plume or 18k, coffret bois</p>
+                        <div class="product-bottom">
+                            <span class="product-price">1 850 €</span>
+                            <button class="btn btn-primary btn-small">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" data-aos="fade-up">
+                <button class="pagination-btn" disabled><i class="fas fa-chevron-left"></i></button>
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-banner">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-item" data-aos="fade-up">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h4>Livraison Premium</h4>
+                    <p>Gratuite et sécurisée</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Garantie Excellence</h4>
+                    <p>2 ans toutes collections</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-headset"></i>
+                    <h4>Service VIP 24/7</h4>
+                    <p>Conseiller dédié</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-gift"></i>
+                    <h4>Emballage Luxe</h4>
+                    <p>Coffret signature offert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-logo">LUXURA <span>Monte-Carlo</span></h3>
+                    <p>L'excellence et le raffinement à la monégasque.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="boutique.html">Boutique</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Service Client VIP</a></li>
+                        <li><a href="#">Livraison Premium</a></li>
+                        <li><a href="#">Garantie Excellence</a></li>
+                        <li><a href="#">Personnalisation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Monte-Carlo, Monaco</li>
+                        <li><i class="fas fa-phone"></i> +377 XX XX XX XX</li>
+                        <li><i class="fas fa-envelope"></i> contact@luxura-mc.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luxura Monte-Carlo. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
